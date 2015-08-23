@@ -3,7 +3,7 @@ TrumbowygRails
 
 Rails asset wrapper for [Trumbowyg](https://github.com/Alex-D/Trumbowyg)
 
-Currently tracking code as of [this change](https://github.com/Alex-D/Trumbowyg/tree/e6cdc17a8c3ee341e724153ecb3da2bd9c845060).
+Currently tracking code as of [this change](https://github.com/Alex-D/Trumbowyg/tree/b13eee68f64f796ca640ea4113ef10318a06d4fd).
 
 Installation
 ============
