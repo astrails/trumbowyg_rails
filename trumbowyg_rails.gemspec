@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.add_dependency('rails', '>= 3.1')
   s.add_dependency('sass', '>= 3.2')
 
-  s.files         = `git ls-files`.split($/)
+  # s.files         = `git ls-files`.split($/)
+  s.files = Dir["{lib,vendor}/**/*"]
   s.require_paths = ["lib"]
 end
