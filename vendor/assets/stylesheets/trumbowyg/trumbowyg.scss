@@ -623,7 +623,7 @@ body.trumbowyg-body-fullscreen {
     width: 35px;
     height: 35px;
     overflow: hidden;
-    background: transparent url($icons-black) no-repeat;
+    background: transparent image-url($icons-black) no-repeat;
     border: none;
     cursor: pointer;
     transition: background-color .15s, background-image .15s, opacity .15s;
@@ -672,7 +672,7 @@ body.trumbowyg-body-fullscreen {
 
 .trumbowyg-black {
     .trumbowyg-button-pane li button {
-        background-image: url($icons-white);
+        background-image: image-url($icons-white);
 
         &.trumbowyg-viewHTML-button { @include sprite-pos($view-html-white); }
         &.trumbowyg-formatting-button { @include sprite-pos($formatting-white); }
@@ -723,7 +723,7 @@ body.trumbowyg-body-fullscreen {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 4/3), only screen and (min-device-pixel-ratio: 1.3), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx){
     .trumbowyg-button-pane li button {
         background-size: round($sprite-width-black-2x / 2) round($sprite-height-black-2x / 2) !important;
-        background-image: url($icons-black-2x) !important;
+        background-image: image-url($icons-black-2x) !important;
 
         &.trumbowyg-viewHTML-button { @include sprite-pos($view-html-black-2x, true); }
         &.trumbowyg-formatting-button { @include sprite-pos($formatting-black-2x, true); }
@@ -767,7 +767,7 @@ body.trumbowyg-body-fullscreen {
     .trumbowyg-black {
         .trumbowyg-button-pane li button {
             background-size: round($sprite-width-white-2x / 2) round($sprite-height-white-2x / 2) !important;
-            background-image: url($icons-white-2x) !important;
+            background-image: image-url($icons-white-2x) !important;
 
             &.trumbowyg-viewHTML-button { @include sprite-pos($view-html-white-2x, true); }
             &.trumbowyg-formatting-button { @include sprite-pos($formatting-white-2x, true); }
